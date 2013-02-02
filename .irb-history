@@ -1,0 +1,50 @@
+query
+query("Add")
+label("button")
+query "button marked:'Add'"
+query("button marked:'Add'").count
+query("button marked:'Add'").map {|e| e["class"]}
+a = []
+backdoor("backdoor:", "qweqewqwe")
+backdoor("reset:", "xxxxzcasd")
+backdoor("backdoor:", "xxxxzcasd")
+backdoor("backdoor:", )
+hash = {
+:username => "john",
+:password => "qwerty"
+}
+hash
+poem = "qweqe qwdqqwd qd \n qweqwe"
+print poem
+poem.lines
+poem.lines.to_a
+line1 = poem.lines.to_a[0]
+lines = poem.to_a
+line.include? "bla"
+line1.include? "bla"
+line1.include? "qd"
+line1
+line1.uppercase
+line1.upcase
+[1,2,3].include? 3
+[1,2,3].include? 4
+[1,2,3].include? 6
+arr = [1,2 ,3]
+arr.include? 2
+1/0
+Xcode.Project("Application")
+require "xcoder"
+Xcode.Project("Application")
+Xcode::Project("Application")
+Xcode.project("Application").target("Application")
+Xcode.project("Application").target("Application")
+reload!
+reload
+source
+Xcode.project("Application").target("Application")
+Xcode.project("Application").target("Application")
+eixt
+exit
+require "xcode-yamlizer"
+require "kballard-osx-plist"
+exit

@@ -1,0 +1,18 @@
+build:
+  workspace: Application
+  scheme: All
+
+identity:
+  customer: 
+    certificate: cert.p12
+    password: bugaga
+    profile: profile.mobileprovision
+  qa: 
+    certificate: cert.p12
+    password: bugaga
+    profile: profile.mobileprovision
+
+deploy:
+  hockey_app:
+    token: 12345
+    app_key: 12345

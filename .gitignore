@@ -13,6 +13,10 @@ cpd-output.*
 DerivedData
 build.output
 /report.html# XcodeYamlizer
+#Application.xcodeproj/project.pbxproj
+#Pods/Pods.xcodeproj/project.pbxproj
+# end
+# XcodeYamlizer
 Application.xcodeproj/project.pbxproj
 Pods/Pods.xcodeproj/project.pbxproj
 # end

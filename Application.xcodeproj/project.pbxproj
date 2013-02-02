@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADB5988D1651062600497883 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5988C1651062600497883 /* RootViewController.m */; };
-		ADB5989016510F1E00497883 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB5988F16510F1E00497883 /* AppContext.m */; };
-		ADB598941651194A00497883 /* AppearanceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB598931651194A00497883 /* AppearanceConfiguration.m */; };
 		ADC3B3CB164FFEA7002E5195 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC3B3CA164FFEA7002E5195 /* libPods.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		ADC3B43716500629002E5195 /* libDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC3B43616500629002E5195 /* libDomain.a */; };
 		ADC3B4631650154C002E5195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC3B45A1650154C002E5195 /* AppDelegate.m */; };
 		ADC3B4651650154C002E5195 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC3B45D1650154C002E5195 /* Default-568h@2x.png */; };
 		ADC3B4661650154C002E5195 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC3B45E1650154C002E5195 /* Default.png */; };
@@ -19,7 +15,6 @@
 		ADC3B4681650154C002E5195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADC3B4601650154C002E5195 /* InfoPlist.strings */; };
 		ADC3B4691650154C002E5195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC3B4621650154C002E5195 /* main.m */; };
 		ADC3B47716501928002E5195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADC3B47416501928002E5195 /* InfoPlist.strings */; };
-		ADC3B486165019ED002E5195 /* libPods-Foundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC3B485165019ED002E5195 /* libPods-Foundation.a */; };
 		ADCD9E52164EB3AA0043C644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCD9E51164EB3AA0043C644 /* UIKit.framework */; };
 		ADCD9E54164EB3AA0043C644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCD9E53164EB3AA0043C644 /* Foundation.framework */; };
 		ADCD9E56164EB3AA0043C644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCD9E55164EB3AA0043C644 /* CoreGraphics.framework */; };
@@ -34,22 +29,13 @@
 			containerPortal = ADCD9E44164EB3AA0043C644 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ADCD9E4C164EB3AA0043C644;
-			remoteInfo = DXAppTemplate;
+			remoteInfo = Application;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ADB59889165105EC00497883 /* DXRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXRootController.h; sourceTree = "<group>"; };
-		ADB5988B1651062600497883 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		ADB5988C1651062600497883 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		ADB5988E16510F1E00497883 /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
-		ADB5988F16510F1E00497883 /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
-		ADB598921651194A00497883 /* AppearanceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceConfiguration.h; sourceTree = "<group>"; };
-		ADB598931651194A00497883 /* AppearanceConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceConfiguration.m; sourceTree = "<group>"; };
-		ADB598951651197800497883 /* DXAppearanceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAppearanceConfiguration.h; sourceTree = "<group>"; };
 		ADC3B3C7164FFE8D002E5195 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		ADC3B3CA164FFEA7002E5195 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		ADC3B43616500629002E5195 /* libDomain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDomain.a; path = "Domain/build/Release-iphoneos/libDomain.a"; sourceTree = "<group>"; };
 		ADC3B4591650154C002E5195 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADC3B45A1650154C002E5195 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ADC3B45B1650154C002E5195 /* Application-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Application-Info.plist"; sourceTree = "<group>"; };
@@ -61,7 +47,6 @@
 		ADC3B4621650154C002E5195 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADC3B47316501928002E5195 /* ApplicationTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		ADC3B47516501928002E5195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ADC3B485165019ED002E5195 /* libPods-Foundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Foundation.a"; path = "Pods/build/Release-iphoneos/libPods-Foundation.a"; sourceTree = "<group>"; };
 		ADCD9E4D164EB3AA0043C644 /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCD9E51164EB3AA0043C644 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADCD9E53164EB3AA0043C644 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,8 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC3B486165019ED002E5195 /* libPods-Foundation.a in Frameworks */,
-				ADC3B43716500629002E5195 /* libDomain.a in Frameworks */,
 				ADC3B3CB164FFEA7002E5195 /* libPods.a in Frameworks */,
 				ADCD9E52164EB3AA0043C644 /* UIKit.framework in Frameworks */,
 				ADCD9E54164EB3AA0043C644 /* Foundation.framework in Frameworks */,
@@ -97,23 +80,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ADB598911651193D00497883 /* Appearance */ = {
-			isa = PBXGroup;
-			children = (
-				ADB598921651194A00497883 /* AppearanceConfiguration.h */,
-				ADB598931651194A00497883 /* AppearanceConfiguration.m */,
-				ADB598951651197800497883 /* DXAppearanceConfiguration.h */,
-			);
-			path = Appearance;
-			sourceTree = "<group>";
-		};
 		ADC3B4581650154C002E5195 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				ADC3B48C165100AD002E5195 /* Controllers */,
-				ADC3B48D165100AD002E5195 /* Views */,
-				ADB5988E16510F1E00497883 /* AppContext.h */,
-				ADB5988F16510F1E00497883 /* AppContext.m */,
 				ADC3B4591650154C002E5195 /* AppDelegate.h */,
 				ADC3B45A1650154C002E5195 /* AppDelegate.m */,
 				ADC3B46A16501554002E5195 /* Supporting Files */,
@@ -152,40 +121,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ADC3B48C165100AD002E5195 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				ADC3B4941651027F002E5195 /* Base */,
-				ADC3B4951651027F002E5195 /* Root */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		ADC3B48D165100AD002E5195 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ADB598911651193D00497883 /* Appearance */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		ADC3B4941651027F002E5195 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				ADB59889165105EC00497883 /* DXRootController.h */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		ADC3B4951651027F002E5195 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				ADB5988B1651062600497883 /* RootViewController.h */,
-				ADB5988C1651062600497883 /* RootViewController.m */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
 		ADCD9E42164EB3AA0043C644 = {
 			isa = PBXGroup;
 			children = (
@@ -208,8 +143,6 @@
 		ADCD9E50164EB3AA0043C644 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADC3B485165019ED002E5195 /* libPods-Foundation.a */,
-				ADC3B43616500629002E5195 /* libDomain.a */,
 				ADC3B3CA164FFEA7002E5195 /* libPods.a */,
 				ADC3B3C7164FFE8D002E5195 /* Pods.xcconfig */,
 				ADCD9E51164EB3AA0043C644 /* UIKit.framework */,
@@ -237,7 +170,7 @@
 			dependencies = (
 			);
 			name = Application;
-			productName = DXAppTemplate;
+			productName = Application;
 			productReference = ADCD9E4D164EB3AA0043C644 /* Application.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -256,7 +189,7 @@
 				ADCD9E74164EB3AA0043C644 /* PBXTargetDependency */,
 			);
 			name = ApplicationTests;
-			productName = DXAppTemplateTests;
+			productName = ApplicationTests;
 			productReference = ADCD9E6E164EB3AA0043C644 /* ApplicationTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -346,9 +279,6 @@
 			files = (
 				ADC3B4631650154C002E5195 /* AppDelegate.m in Sources */,
 				ADC3B4691650154C002E5195 /* main.m in Sources */,
-				ADB5988D1651062600497883 /* RootViewController.m in Sources */,
-				ADB5989016510F1E00497883 /* AppContext.m in Sources */,
-				ADB598941651194A00497883 /* AppearanceConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +328,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -413,6 +344,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Application;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -426,7 +360,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -434,6 +369,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Application;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -443,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADC3B3C7164FFE8D002E5195 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Application/Application-Prefix.pch";
 				INFOPLIST_FILE = "Application/Application-Info.plist";
@@ -455,10 +394,9 @@
 					QuartzCore,
 					"-framework",
 					UIKit,
-					"-force_load",
-					"$(BUILT_PRODUCTS_DIR)/libDomain.a",
 				);
 				PRODUCT_NAME = Application;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -467,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADC3B3C7164FFE8D002E5195 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Application/Application-Prefix.pch";
 				INFOPLIST_FILE = "Application/Application-Info.plist";
@@ -479,10 +418,10 @@
 					QuartzCore,
 					"-framework",
 					UIKit,
-					"-force_load",
-					"$(BUILT_PRODUCTS_DIR)/libDomain.a",
 				);
 				PRODUCT_NAME = Application;
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

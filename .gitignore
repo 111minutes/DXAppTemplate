@@ -5,15 +5,9 @@
 !*.xcworkspace/*.xcworkspacedata
 
 Pods
-Podfile.lock
 .idea
 
-Modules/*/*.xcodeproj/**
-!Modules/*/*.xcodeproj/*.pbxproj
-
 build/*
-build.output/*
-pkg/*
 
 cpd-output.*
 DerivedData

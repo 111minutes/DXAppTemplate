@@ -1,0 +1,517 @@
+--- 
+classes: {}
+
+objectVersion: "46"
+archiveVersion: "1"
+objects: 
+  ADCD9E4E164EB3AA0043C644: 
+    isa: PBXGroup
+    name: Products
+    children: 
+    - ADCD9E4D164EB3AA0043C644
+    - ADCD9E6E164EB3AA0043C644
+    sourceTree: <group>
+  ADC3B45C1650154C002E5195: 
+    path: Application-Prefix.pch
+    isa: PBXFileReference
+    sourceTree: <group>
+    fileEncoding: "4"
+    lastKnownFileType: sourcecode.c.h
+  ADCD9E51164EB3AA0043C644: 
+    path: System/Library/Frameworks/UIKit.framework
+    isa: PBXFileReference
+    includeInIndex: "1"
+    name: UIKit.framework
+    lastKnownFileType: wrapper.framework
+    sourceTree: SDKROOT
+  ADC3B4591650154C002E5195: 
+    path: AppDelegate.h
+    isa: PBXFileReference
+    sourceTree: <group>
+    fileEncoding: "4"
+    lastKnownFileType: sourcecode.c.h
+  ADCD9E6E164EB3AA0043C644: 
+    path: ApplicationTests.octest
+    isa: PBXFileReference
+    includeInIndex: "0"
+    explicitFileType: wrapper.cfbundle
+    sourceTree: BUILT_PRODUCTS_DIR
+  ADC3B4691650154C002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B4621650154C002E5195
+  ADCD9E71164EB3AA0043C644: 
+    isa: PBXBuildFile
+    fileRef: ADCD9E51164EB3AA0043C644
+  ADCD9E7E164EB3AA0043C644: 
+    isa: XCBuildConfiguration
+    buildSettings: 
+      PROVISIONING_PROFILE: ""
+      GCC_WARN_ABOUT_RETURN_TYPE: "YES"
+      GCC_PREPROCESSOR_DEFINITIONS: 
+      - DEBUG=1
+      - $(inherited)
+      ONLY_ACTIVE_ARCH: "YES"
+      GCC_SYMBOLS_PRIVATE_EXTERN: "NO"
+      GCC_WARN_UNINITIALIZED_AUTOS: "YES"
+      CLANG_CXX_LANGUAGE_STANDARD: gnu++0x
+      GCC_OPTIMIZATION_LEVEL: "0"
+      GCC_C_LANGUAGE_STANDARD: gnu99
+      CLANG_WARN__DUPLICATE_METHOD_MATCH: "YES"
+      CLANG_WARN_EMPTY_BODY: "YES"
+      ALWAYS_SEARCH_USER_PATHS: "NO"
+      COPY_PHASE_STRIP: "NO"
+      CLANG_ENABLE_OBJC_ARC: "YES"
+      PROVISIONING_PROFILE[sdk=iphoneos*]: ""
+      SDKROOT: iphoneos
+      PRODUCT_NAME: Application
+      GCC_DYNAMIC_NO_PIC: "NO"
+      CODE_SIGN_IDENTITY: iPhone Distribution
+      CODE_SIGN_IDENTITY[sdk=iphoneos*]: iPhone Distribution
+      IPHONEOS_DEPLOYMENT_TARGET: "5.0"
+      CLANG_CXX_LIBRARY: libc++
+      GCC_WARN_UNUSED_VARIABLE: "YES"
+    name: Debug
+  ADCD9E81164EB3AA0043C644: 
+    baseConfigurationReference: ADC3B3C7164FFE8D002E5195
+    isa: XCBuildConfiguration
+    buildSettings: 
+      CODE_SIGN_IDENTITY: iPhone Distribution
+      WRAPPER_EXTENSION: app
+      IPHONEOS_DEPLOYMENT_TARGET: "5.0"
+      GCC_PRECOMPILE_PREFIX_HEADER: "YES"
+      INFOPLIST_FILE: Application/Application-Info.plist
+      OTHER_LDFLAGS: 
+      - -ObjC
+      - -framework
+      - CoreGraphics
+      - -framework
+      - QuartzCore
+      - -framework
+      - UIKit
+      PROVISIONING_PROFILE: ""
+      GCC_PREFIX_HEADER: Application/Application-Prefix.pch
+      PRODUCT_NAME: Application
+    name: Debug
+  ADCD9E4B164EB3AA0043C644: 
+    isa: PBXResourcesBuildPhase
+    buildActionMask: "2147483647"
+    files: 
+    - ADC3B4651650154C002E5195
+    - ADC3B4661650154C002E5195
+    - ADC3B4671650154C002E5195
+    - ADC3B4681650154C002E5195
+    runOnlyForDeploymentPostprocessing: "0"
+  ADCD9E6B164EB3AA0043C644: 
+    isa: PBXResourcesBuildPhase
+    buildActionMask: "2147483647"
+    files: 
+    - ADC3B47716501928002E5195
+    runOnlyForDeploymentPostprocessing: "0"
+  ADC3B4661650154C002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B45E1650154C002E5195
+  ADC3B47516501928002E5195: 
+    path: en.lproj/InfoPlist.strings
+    isa: PBXFileReference
+    name: en
+    lastKnownFileType: text.plist.strings
+    sourceTree: <group>
+  ADCD9E55164EB3AA0043C644: 
+    path: System/Library/Frameworks/CoreGraphics.framework
+    isa: PBXFileReference
+    includeInIndex: "1"
+    name: CoreGraphics.framework
+    lastKnownFileType: wrapper.framework
+    sourceTree: SDKROOT
+  ADC3B4631650154C002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B45A1650154C002E5195
+  ADC3B47216501928002E5195: 
+    path: ApplicationTests
+    isa: PBXGroup
+    children: 
+    - ADC3B48816501AC9002E5195
+    sourceTree: <group>
+  ADC3B3CB164FFEA7002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B3CA164FFEA7002E5195
+    settings: 
+      ATTRIBUTES: 
+      - Required
+  ADCD9E85164EB3AA0043C644: 
+    isa: XCBuildConfiguration
+    buildSettings: 
+      WRAPPER_EXTENSION: octest
+      FRAMEWORK_SEARCH_PATHS: 
+      - "\"$(SDKROOT)/Developer/Library/Frameworks\""
+      - "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\""
+      TEST_HOST: $(BUNDLE_LOADER)
+      GCC_PRECOMPILE_PREFIX_HEADER: "YES"
+      INFOPLIST_FILE: ApplicationTests/ApplicationTests-Info.plist
+      BUNDLE_LOADER: $(BUILT_PRODUCTS_DIR)/Application.app/Application
+      GCC_PREFIX_HEADER: Application/Application-Prefix.pch
+      PRODUCT_NAME: ApplicationTests
+    name: Release
+  ADCD9E42164EB3AA0043C644: 
+    isa: PBXGroup
+    sourceTree: <group>
+    children: 
+    - ADC3B4581650154C002E5195
+    - ADC3B47216501928002E5195
+    - ADCD9E50164EB3AA0043C644
+    - ADCD9E4E164EB3AA0043C644
+  ADC3B45D1650154C002E5195: 
+    path: Default-568h@2x.png
+    isa: PBXFileReference
+    lastKnownFileType: image.png
+    sourceTree: <group>
+  ADCD9E6F164EB3AA0043C644: 
+    path: Library/Frameworks/SenTestingKit.framework
+    isa: PBXFileReference
+    name: SenTestingKit.framework
+    lastKnownFileType: wrapper.framework
+    sourceTree: DEVELOPER_DIR
+  ADCD9E52164EB3AA0043C644: 
+    isa: PBXBuildFile
+    fileRef: ADCD9E51164EB3AA0043C644
+  ADC3B4601650154C002E5195: 
+    isa: PBXVariantGroup
+    name: InfoPlist.strings
+    children: 
+    - ADC3B4611650154C002E5195
+    sourceTree: <group>
+  ADCD9E7F164EB3AA0043C644: 
+    isa: XCBuildConfiguration
+    buildSettings: 
+      VALIDATE_PRODUCT: "YES"
+      PROVISIONING_PROFILE: ""
+      GCC_WARN_ABOUT_RETURN_TYPE: "YES"
+      GCC_WARN_UNINITIALIZED_AUTOS: "YES"
+      CLANG_CXX_LANGUAGE_STANDARD: gnu++0x
+      GCC_C_LANGUAGE_STANDARD: gnu99
+      CLANG_WARN__DUPLICATE_METHOD_MATCH: "YES"
+      OTHER_CFLAGS: -DNS_BLOCK_ASSERTIONS=1
+      CLANG_WARN_EMPTY_BODY: "YES"
+      ALWAYS_SEARCH_USER_PATHS: "NO"
+      PROVISIONING_PROFILE[sdk=iphoneos*]: ""
+      CLANG_ENABLE_OBJC_ARC: "YES"
+      SDKROOT: iphoneos
+      COPY_PHASE_STRIP: "YES"
+      PRODUCT_NAME: Application
+      CODE_SIGN_IDENTITY[sdk=iphoneos*]: iPhone Distribution
+      CODE_SIGN_IDENTITY: iPhone Distribution
+      IPHONEOS_DEPLOYMENT_TARGET: "5.0"
+      CLANG_CXX_LIBRARY: libc++
+      GCC_WARN_UNUSED_VARIABLE: "YES"
+    name: Release
+  ADCD9E72164EB3AA0043C644: 
+    isa: PBXBuildFile
+    fileRef: ADCD9E53164EB3AA0043C644
+  ADCD9E82164EB3AA0043C644: 
+    baseConfigurationReference: ADC3B3C7164FFE8D002E5195
+    isa: XCBuildConfiguration
+    buildSettings: 
+      CODE_SIGN_IDENTITY: iPhone Distribution
+      VALIDATE_PRODUCT: "NO"
+      WRAPPER_EXTENSION: app
+      IPHONEOS_DEPLOYMENT_TARGET: "5.0"
+      GCC_PRECOMPILE_PREFIX_HEADER: "YES"
+      INFOPLIST_FILE: Application/Application-Info.plist
+      OTHER_LDFLAGS: 
+      - -ObjC
+      - -framework
+      - CoreGraphics
+      - -framework
+      - QuartzCore
+      - -framework
+      - UIKit
+      PROVISIONING_PROFILE: ""
+      GCC_PREFIX_HEADER: Application/Application-Prefix.pch
+      PRODUCT_NAME: Application
+    name: Release
+  ADCD9E4C164EB3AA0043C644: 
+    buildConfigurationList: ADCD9E80164EB3AA0043C644
+    productReference: ADCD9E4D164EB3AA0043C644
+    productType: com.apple.product-type.application
+    productName: Application
+    isa: PBXNativeTarget
+    buildPhases: 
+    - ADCD9E49164EB3AA0043C644
+    - ADCD9E4A164EB3AA0043C644
+    - ADCD9E4B164EB3AA0043C644
+    - 90460EDDB1D54860B2D6F3F9
+    dependencies: []
+
+    name: Application
+    buildRules: []
+
+  ADC3B45A1650154C002E5195: 
+    path: AppDelegate.m
+    isa: PBXFileReference
+    sourceTree: <group>
+    fileEncoding: "4"
+    lastKnownFileType: sourcecode.c.objc
+  ADCD9E49164EB3AA0043C644: 
+    isa: PBXSourcesBuildPhase
+    buildActionMask: "2147483647"
+    files: 
+    - ADC3B4631650154C002E5195
+    - ADC3B4691650154C002E5195
+    runOnlyForDeploymentPostprocessing: "0"
+  ADC3B4671650154C002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B45F1650154C002E5195
+  ADCD9E69164EB3AA0043C644: 
+    isa: PBXSourcesBuildPhase
+    buildActionMask: "2147483647"
+    files: []
+
+    runOnlyForDeploymentPostprocessing: "0"
+  ADCD9E6C164EB3AA0043C644: 
+    inputPaths: []
+
+    buildActionMask: "2147483647"
+    shellPath: /bin/sh
+    isa: PBXShellScriptBuildPhase
+    outputPaths: []
+
+    runOnlyForDeploymentPostprocessing: "0"
+    shellScript: |
+      # Run the unit tests in this test bundle.
+      "${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
+
+    files: []
+
+  ADCD9E56164EB3AA0043C644: 
+    isa: PBXBuildFile
+    fileRef: ADCD9E55164EB3AA0043C644
+  90460EDDB1D54860B2D6F3F9: 
+    inputPaths: []
+
+    buildActionMask: "2147483647"
+    shellPath: /bin/sh
+    isa: PBXShellScriptBuildPhase
+    outputPaths: []
+
+    runOnlyForDeploymentPostprocessing: "0"
+    shellScript: |
+      "${SRCROOT}/Pods/Pods-resources.sh"
+
+    files: []
+
+    name: Copy Pods Resources
+  ADC3B3C7164FFE8D002E5195: 
+    path: Pods/Pods.xcconfig
+    isa: PBXFileReference
+    name: Pods.xcconfig
+    lastKnownFileType: text.xcconfig
+    sourceTree: <group>
+  ADC3B47316501928002E5195: 
+    path: ApplicationTests-Info.plist
+    isa: PBXFileReference
+    sourceTree: <group>
+    fileEncoding: "4"
+    lastKnownFileType: text.plist.xml
+  ADC3B45E1650154C002E5195: 
+    path: Default.png
+    isa: PBXFileReference
+    lastKnownFileType: image.png
+    sourceTree: <group>
+  ADCD9E53164EB3AA0043C644: 
+    path: System/Library/Frameworks/Foundation.framework
+    isa: PBXFileReference
+    includeInIndex: "1"
+    name: Foundation.framework
+    lastKnownFileType: wrapper.framework
+    sourceTree: SDKROOT
+  ADC3B46A16501554002E5195: 
+    isa: PBXGroup
+    name: Supporting Files
+    children: 
+    - ADC3B45B1650154C002E5195
+    - ADC3B45C1650154C002E5195
+    - ADC3B45D1650154C002E5195
+    - ADC3B45E1650154C002E5195
+    - ADC3B45F1650154C002E5195
+    - ADC3B4601650154C002E5195
+    - ADC3B4621650154C002E5195
+    sourceTree: <group>
+  ADC3B4611650154C002E5195: 
+    path: en.lproj/InfoPlist.strings
+    isa: PBXFileReference
+    name: en
+    lastKnownFileType: text.plist.strings
+    sourceTree: <group>
+  ADCD9E73164EB3AA0043C644: 
+    isa: PBXContainerItemProxy
+    containerPortal: ADCD9E44164EB3AA0043C644
+    remoteGlobalIDString: ADCD9E4C164EB3AA0043C644
+    remoteInfo: Application
+    proxyType: "1"
+  ADCD9E83164EB3AA0043C644: 
+    isa: XCConfigurationList
+    defaultConfigurationIsVisible: "0"
+    defaultConfigurationName: Release
+    buildConfigurations: 
+    - ADCD9E84164EB3AA0043C644
+    - ADCD9E85164EB3AA0043C644
+  ADCD9E4D164EB3AA0043C644: 
+    path: Application.app
+    isa: PBXFileReference
+    includeInIndex: "0"
+    explicitFileType: wrapper.application
+    sourceTree: BUILT_PRODUCTS_DIR
+  ADC3B45B1650154C002E5195: 
+    path: Application-Info.plist
+    isa: PBXFileReference
+    sourceTree: <group>
+    fileEncoding: "4"
+    lastKnownFileType: text.plist.xml
+  ADCD9E6D164EB3AA0043C644: 
+    buildConfigurationList: ADCD9E83164EB3AA0043C644
+    productReference: ADCD9E6E164EB3AA0043C644
+    productType: com.apple.product-type.bundle
+    productName: ApplicationTests
+    isa: PBXNativeTarget
+    buildPhases: 
+    - ADCD9E69164EB3AA0043C644
+    - ADCD9E6A164EB3AA0043C644
+    - ADCD9E6B164EB3AA0043C644
+    - ADCD9E6C164EB3AA0043C644
+    dependencies: 
+    - ADCD9E74164EB3AA0043C644
+    name: ApplicationTests
+    buildRules: []
+
+  ADCD9E50164EB3AA0043C644: 
+    isa: PBXGroup
+    name: Frameworks
+    children: 
+    - ADC3B3CA164FFEA7002E5195
+    - ADC3B3C7164FFE8D002E5195
+    - ADCD9E51164EB3AA0043C644
+    - ADCD9E53164EB3AA0043C644
+    - ADCD9E55164EB3AA0043C644
+    - ADCD9E6F164EB3AA0043C644
+    sourceTree: <group>
+  ADC3B4581650154C002E5195: 
+    path: Application
+    isa: PBXGroup
+    children: 
+    - ADC3B4591650154C002E5195
+    - ADC3B45A1650154C002E5195
+    - ADC3B46A16501554002E5195
+    sourceTree: <group>
+  ADC3B4681650154C002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B4601650154C002E5195
+  ADCD9E70164EB3AA0043C644: 
+    isa: PBXBuildFile
+    fileRef: ADCD9E6F164EB3AA0043C644
+  ADC3B47716501928002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B47416501928002E5195
+  ADCD9E80164EB3AA0043C644: 
+    isa: XCConfigurationList
+    defaultConfigurationIsVisible: "0"
+    defaultConfigurationName: Release
+    buildConfigurations: 
+    - ADCD9E81164EB3AA0043C644
+    - ADCD9E82164EB3AA0043C644
+  ADC3B48816501AC9002E5195: 
+    isa: PBXGroup
+    name: Supporting Files
+    children: 
+    - ADC3B47316501928002E5195
+    - ADC3B47416501928002E5195
+    sourceTree: <group>
+  ADCD9E4A164EB3AA0043C644: 
+    isa: PBXFrameworksBuildPhase
+    buildActionMask: "2147483647"
+    files: 
+    - ADC3B3CB164FFEA7002E5195
+    - ADCD9E52164EB3AA0043C644
+    - ADCD9E54164EB3AA0043C644
+    - ADCD9E56164EB3AA0043C644
+    runOnlyForDeploymentPostprocessing: "0"
+  ADCD9E47164EB3AA0043C644: 
+    isa: XCConfigurationList
+    defaultConfigurationIsVisible: "0"
+    defaultConfigurationName: Release
+    buildConfigurations: 
+    - ADCD9E7E164EB3AA0043C644
+    - ADCD9E7F164EB3AA0043C644
+  ADC3B4651650154C002E5195: 
+    isa: PBXBuildFile
+    fileRef: ADC3B45D1650154C002E5195
+  ADCD9E6A164EB3AA0043C644: 
+    isa: PBXFrameworksBuildPhase
+    buildActionMask: "2147483647"
+    files: 
+    - ADCD9E70164EB3AA0043C644
+    - ADCD9E71164EB3AA0043C644
+    - ADCD9E72164EB3AA0043C644
+    runOnlyForDeploymentPostprocessing: "0"
+  ADC3B47416501928002E5195: 
+    isa: PBXVariantGroup
+    name: InfoPlist.strings
+    children: 
+    - ADC3B47516501928002E5195
+    sourceTree: <group>
+  ADCD9E44164EB3AA0043C644: 
+    buildConfigurationList: ADCD9E47164EB3AA0043C644
+    targets: 
+    - ADCD9E4C164EB3AA0043C644
+    - ADCD9E6D164EB3AA0043C644
+    developmentRegion: English
+    knownRegions: 
+    - en
+    isa: PBXProject
+    compatibilityVersion: Xcode 3.2
+    productRefGroup: ADCD9E4E164EB3AA0043C644
+    projectDirPath: ""
+    attributes: 
+      LastUpgradeCheck: "0450"
+      ORGANIZATIONNAME: 111Minutes
+    hasScannedForEncodings: "0"
+    projectRoot: ""
+    mainGroup: ADCD9E42164EB3AA0043C644
+  ADC3B45F1650154C002E5195: 
+    path: Default@2x.png
+    isa: PBXFileReference
+    lastKnownFileType: image.png
+    sourceTree: <group>
+  ADCD9E54164EB3AA0043C644: 
+    isa: PBXBuildFile
+    fileRef: ADCD9E53164EB3AA0043C644
+  ADC3B4621650154C002E5195: 
+    path: main.m
+    isa: PBXFileReference
+    sourceTree: <group>
+    fileEncoding: "4"
+    lastKnownFileType: sourcecode.c.objc
+  ADCD9E74164EB3AA0043C644: 
+    isa: PBXTargetDependency
+    target: ADCD9E4C164EB3AA0043C644
+    targetProxy: ADCD9E73164EB3AA0043C644
+  ADC3B3CA164FFEA7002E5195: 
+    path: Pods/build/Release-iphoneos/libPods.a
+    isa: PBXFileReference
+    name: libPods.a
+    lastKnownFileType: archive.ar
+    sourceTree: <group>
+  ADCD9E84164EB3AA0043C644: 
+    isa: XCBuildConfiguration
+    buildSettings: 
+      WRAPPER_EXTENSION: octest
+      FRAMEWORK_SEARCH_PATHS: 
+      - "\"$(SDKROOT)/Developer/Library/Frameworks\""
+      - "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\""
+      TEST_HOST: $(BUNDLE_LOADER)
+      GCC_PRECOMPILE_PREFIX_HEADER: "YES"
+      INFOPLIST_FILE: ApplicationTests/ApplicationTests-Info.plist
+      BUNDLE_LOADER: $(BUILT_PRODUCTS_DIR)/Application.app/Application
+      GCC_PREFIX_HEADER: Application/Application-Prefix.pch
+      PRODUCT_NAME: ApplicationTests
+    name: Debug
+rootObject: ADCD9E44164EB3AA0043C644
